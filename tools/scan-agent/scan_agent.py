@@ -121,7 +121,7 @@ class GitHub:
         })
 
     def _req(self, method: str, path: str, ok=(200, 201), **kw):
-        url = f"{API}/repos/{self.repo}/{path}"
+        url = f"{API}/repos/{self.repo}" + (f"/{path}" if path else "")  # no trailing slash: GitHub 404s on it
         for attempt in range(5):
             try:
                 r = self.s.request(method, url, timeout=120, **kw)
@@ -139,8 +139,11 @@ class GitHub:
 
     def check_access(self) -> str:
         r = self._req("GET", "")
+        if r.status_code == 401:
+            return "GitHub did not accept the key (it may be cut off or mistyped). Copy it again and retry."
         if r.status_code != 200:
-            return f"cannot read {self.repo}: HTTP {r.status_code} {r.text[:200]}"
+            return (f"the key works but can't see {self.repo} (HTTP {r.status_code}). Check the key's "
+                    "Repository access includes yomama-photos.")
         perms = r.json().get("permissions") or {}
         if perms and not perms.get("push"):
             return f"the key can read {self.repo} but cannot upload to it (needs Contents: Read and write)"
@@ -492,12 +495,48 @@ def run_once(cfg: dict, gh: GitHub | None, dry_dir: Path | None, settle: Settle 
     return done
 
 
+def ask_key() -> str:
+    """Pop-up box (Ctrl+V and right-click paste work); console prompt as fallback."""
+    tok = None
+    try:
+        import tkinter as tk
+
+        root = tk.Tk()
+        root.title("YoMama Scan Agent - GitHub key")
+        root.attributes("-topmost", True)
+        tk.Label(root, text="Paste your GitHub key (Ctrl+V or right-click > Paste), then click Save:",
+                 padx=12, pady=8).pack()
+        var = tk.StringVar()
+        e = tk.Entry(root, textvariable=var, width=60, show="*")
+        e.pack(padx=12)
+        e.focus_set()
+        menu = tk.Menu(root, tearoff=0)
+        menu.add_command(label="Paste", command=lambda: e.event_generate("<<Paste>>"))
+        e.bind("<Button-3>", lambda ev: menu.tk_popup(ev.x_root, ev.y_root))
+        out = {}
+
+        def save(_=None):
+            out["v"] = var.get()
+            root.destroy()
+
+        tk.Button(root, text="Save", width=12, command=save).pack(pady=10)
+        e.bind("<Return>", save)
+        root.mainloop()
+        tok = out.get("v")
+    except Exception:  # no display / tkinter missing
+        tok = None
+    if tok is None:
+        tok = getpass.getpass("Paste your GitHub access key (it stays hidden) and press Enter: ")
+    # keep only characters a GitHub key can contain (drops spaces, newlines, stray ^V)
+    return re.sub(r"[^A-Za-z0-9_]", "", tok)
+
+
 def setup() -> None:
     cfg = load_config()
     if not CONFIG_PATH.exists():
         CONFIG_PATH.write_text(json.dumps(DEFAULT_CONFIG, indent=2), encoding="utf-8")
     print(f"Photo repo: {cfg['repo']}   Scan folder: {cfg['watch_folder']}")
-    tok = getpass.getpass("Paste your GitHub access key (it stays hidden) and press Enter: ").strip()
+    tok = ask_key()
     gh = GitHub(cfg["repo"], cfg["branch"], tok)
     err = gh.check_access()
     if err:
