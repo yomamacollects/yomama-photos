@@ -536,6 +536,15 @@ def setup() -> None:
     if not CONFIG_PATH.exists():
         CONFIG_PATH.write_text(json.dumps(DEFAULT_CONFIG, indent=2), encoding="utf-8")
     print(f"Photo repo: {cfg['repo']}   Scan folder: {cfg['watch_folder']}")
+    try:
+        import keyring
+
+        saved = keyring.get_password(KEYRING_SERVICE, KEYRING_USER)
+    except Exception:
+        saved = None
+    if saved and not GitHub(cfg["repo"], cfg["branch"], saved).check_access():
+        print("Your saved GitHub key still works, so there's nothing to paste.")
+        return
     tok = ask_key()
     gh = GitHub(cfg["repo"], cfg["branch"], tok)
     err = gh.check_access()

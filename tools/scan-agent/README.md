@@ -62,7 +62,7 @@ Assign the profile to the scanner's front button so one press scans the stack.
 * **Problems:** an odd number of scans or a blank front stops that stack and
   writes `SCAN AGENT - CHECK THIS.txt` in the scan folder. Nothing is
   uploaded or moved until it's fixed; then it carries on by itself.
-* `stop-agent.cmd` / `start-agent.cmd` pause and restart it;
+* `stop-agent.cmd` / `start-agent.cmd` pause and restart it (auto-start is a scheduled task, or a Startup-folder shortcut when Windows refuses the task);
   `uninstall.cmd` removes it. Its diary is `scan_agent.log`.
 * Test without uploading: `py -3 scan_agent.py --dry-run C:\temp\test`.
 
