@@ -33,14 +33,22 @@ rem 4. Start automatically at sign-in: a scheduled task, or a Startup-folder sho
 for /f "delims=" %%i in ('%PY% -c "import sys,os;print(os.path.join(os.path.dirname(sys.executable),'pythonw.exe'))"') do set "PYW=%%i"
 call stop-agent.cmd quiet
 schtasks /Create /TN "YoMama Scan Agent" /TR "\"%PYW%\" \"%~dp0scan_agent.py\"" /SC ONLOGON /RL LIMITED /F >nul 2>nul
-if errorlevel 1 (
-  powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=(New-Object -ComObject WScript.Shell).CreateShortcut([Environment]::GetFolderPath('Startup')+'\YoMama Scan Agent.lnk'); $s.TargetPath='%PYW%'; $s.Arguments='\"%~dp0scan_agent.py\"'; $s.WorkingDirectory='%~dp0'; $s.Save()"
-  if errorlevel 1 ( echo Could not set up auto-start. Send Claude a photo of this window. & pause & exit /b 1 )
-  echo Auto-start: shortcut added to your Startup folder.
-) else (
-  echo Auto-start: scheduled task created.
-)
+if not errorlevel 1 goto task_ok
+set "SA_PYW=%PYW%"
+set "SA_DIR=%~dp0"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=(New-Object -ComObject WScript.Shell).CreateShortcut([Environment]::GetFolderPath('Startup')+'\YoMama Scan Agent.lnk'); $s.TargetPath=$env:SA_PYW; $s.Arguments='\"'+$env:SA_DIR+'scan_agent.py\"'; $s.WorkingDirectory=$env:SA_DIR; $s.Save()"
+if errorlevel 1 goto autostart_failed
+echo Auto-start: shortcut added to your Startup folder.
+goto start_now
+:task_ok
+echo Auto-start: scheduled task created.
+goto start_now
+:autostart_failed
+echo Could not set up auto-start. Send Claude a photo of this window.
+pause
+exit /b 1
 
+:start_now
 rem 5. Start it now
 start "" "%PYW%" "%~dp0scan_agent.py"
 
