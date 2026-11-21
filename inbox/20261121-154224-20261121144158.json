@@ -1,0 +1,624 @@
+{
+  "batch_id": "20261121-154224-20261121144158",
+  "created_local": "2026-11-21T15:42:24",
+  "created_utc": "2026-11-21T20:55:28+00:00",
+  "date_folder": "2026-11-21",
+  "mode": "pairs",
+  "scanner_prefix": "20261121144158_",
+  "notes": "",
+  "count": 50,
+  "first_sku": "YMC-20261121-51",
+  "last_sku": "YMC-20261121-100",
+  "items": [
+    {
+      "sku": "YMC-20261121-51",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-51_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-51_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0001.jpg",
+        "20261121144158_0002.jpg"
+      ],
+      "flags": [
+        "back: trimmed background"
+      ]
+    },
+    {
+      "sku": "YMC-20261121-52",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-52_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-52_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0003.jpg",
+        "20261121144158_0004.jpg"
+      ],
+      "flags": [
+        "back: trimmed background"
+      ]
+    },
+    {
+      "sku": "YMC-20261121-53",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-53_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-53_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0005.jpg",
+        "20261121144158_0006.jpg"
+      ],
+      "flags": [
+        "back: trimmed background"
+      ]
+    },
+    {
+      "sku": "YMC-20261121-54",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-54_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-54_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0007.jpg",
+        "20261121144158_0008.jpg"
+      ],
+      "flags": [
+        "front: straightened -0.7 deg"
+      ]
+    },
+    {
+      "sku": "YMC-20261121-55",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-55_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-55_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0009.jpg",
+        "20261121144158_0010.jpg"
+      ],
+      "flags": [
+        "front: straightened -1.6 deg"
+      ]
+    },
+    {
+      "sku": "YMC-20261121-56",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-56_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-56_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0011.jpg",
+        "20261121144158_0012.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-57",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-57_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-57_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0013.jpg",
+        "20261121144158_0014.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-58",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-58_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-58_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0015.jpg",
+        "20261121144158_0016.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-59",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-59_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-59_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0017.jpg",
+        "20261121144158_0018.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-60",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-60_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-60_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0019.jpg",
+        "20261121144158_0020.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-61",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-61_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-61_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0021.jpg",
+        "20261121144158_0022.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-62",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-62_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-62_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0023.jpg",
+        "20261121144158_0024.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-63",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-63_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-63_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0025.jpg",
+        "20261121144158_0026.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-64",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-64_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-64_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0027.jpg",
+        "20261121144158_0028.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-65",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-65_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-65_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0029.jpg",
+        "20261121144158_0030.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-66",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-66_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-66_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0031.jpg",
+        "20261121144158_0032.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-67",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-67_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-67_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0033.jpg",
+        "20261121144158_0034.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-68",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-68_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-68_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0035.jpg",
+        "20261121144158_0036.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-69",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-69_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-69_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0037.jpg",
+        "20261121144158_0038.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-70",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-70_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-70_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0039.jpg",
+        "20261121144158_0040.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-71",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-71_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-71_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0041.jpg",
+        "20261121144158_0042.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-72",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-72_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-72_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0043.jpg",
+        "20261121144158_0044.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-73",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-73_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-73_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0045.jpg",
+        "20261121144158_0046.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-74",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-74_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-74_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0047.jpg",
+        "20261121144158_0048.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-75",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-75_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-75_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0049.jpg",
+        "20261121144158_0050.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-76",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-76_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-76_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0051.jpg",
+        "20261121144158_0052.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-77",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-77_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-77_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0053.jpg",
+        "20261121144158_0054.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-78",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-78_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-78_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0055.jpg",
+        "20261121144158_0056.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-79",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-79_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-79_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0057.jpg",
+        "20261121144158_0058.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-80",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-80_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-80_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0059.jpg",
+        "20261121144158_0060.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-81",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-81_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-81_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0061.jpg",
+        "20261121144158_0062.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-82",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-82_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-82_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0063.jpg",
+        "20261121144158_0064.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-83",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-83_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-83_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0065.jpg",
+        "20261121144158_0066.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-84",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-84_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-84_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0067.jpg",
+        "20261121144158_0068.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-85",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-85_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-85_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0069.jpg",
+        "20261121144158_0070.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-86",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-86_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-86_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0071.jpg",
+        "20261121144158_0072.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-87",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-87_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-87_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0073.jpg",
+        "20261121144158_0074.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-88",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-88_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-88_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0075.jpg",
+        "20261121144158_0076.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-89",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-89_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-89_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0077.jpg",
+        "20261121144158_0078.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-90",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-90_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-90_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0079.jpg",
+        "20261121144158_0080.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-91",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-91_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-91_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0081.jpg",
+        "20261121144158_0082.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-92",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-92_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-92_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0083.jpg",
+        "20261121144158_0084.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-93",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-93_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-93_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0085.jpg",
+        "20261121144158_0086.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-94",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-94_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-94_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0087.jpg",
+        "20261121144158_0088.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-95",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-95_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-95_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0089.jpg",
+        "20261121144158_0090.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-96",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-96_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-96_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0091.jpg",
+        "20261121144158_0092.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-97",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-97_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-97_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0093.jpg",
+        "20261121144158_0094.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-98",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-98_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-98_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0095.jpg",
+        "20261121144158_0096.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-99",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-99_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-99_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0097.jpg",
+        "20261121144158_0098.jpg"
+      ],
+      "flags": []
+    },
+    {
+      "sku": "YMC-20261121-100",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-100_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-21/YMC-20261121-100_2.jpg"
+      ],
+      "source_files": [
+        "20261121144158_0099.jpg",
+        "20261121144158_0100.jpg"
+      ],
+      "flags": []
+    }
+  ]
+}
