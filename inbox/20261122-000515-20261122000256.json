@@ -1,0 +1,28 @@
+{
+  "batch_id": "20261122-000515-20261122000256",
+  "created_local": "2026-11-22T00:05:15",
+  "created_utc": "2026-11-22T05:05:19+00:00",
+  "date_folder": "2026-11-22",
+  "mode": "pairs",
+  "scanner_prefix": "20261122000256_",
+  "notes": "",
+  "count": 1,
+  "first_sku": "YMC-20261122-01",
+  "last_sku": "YMC-20261122-01",
+  "items": [
+    {
+      "sku": "YMC-20261122-01",
+      "photos": [
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-22/YMC-20261122-01_1.jpg",
+        "https://raw.githubusercontent.com/yomamacollects/yomama-photos/main/2026-11-22/YMC-20261122-01_2.jpg"
+      ],
+      "source_files": [
+        "20261122000256_0001.jpg",
+        "20261122000256_0002.jpg"
+      ],
+      "flags": [
+        "back: trimmed background"
+      ]
+    }
+  ]
+}
