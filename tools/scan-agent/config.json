@@ -1,0 +1,12 @@
+{
+  "watch_folder": "E:\\Scans\\Claude Scans",
+  "done_folder_name": "do not scan",
+  "repo": "yomamacollects/yomama-photos",
+  "branch": "main",
+  "settle_seconds": 90,
+  "poll_seconds": 10,
+  "jpeg_quality": 92,
+  "max_long_side": 2600,
+  "auto_crop": true,
+  "sku_prefix": "YMC"
+}
